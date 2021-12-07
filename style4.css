@@ -1,0 +1,1622 @@
+body{
+    background-color: rgb(49, 122, 124);
+    background-image: url(img/fon.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+.content {
+    font-size: 8em;
+    min-width: 95%;
+    min-height: auto;
+    margin: auto;
+}
+
+.btn{cursor: pointer;}
+
+/* БОГДАНОВЫ */
+#im_101{
+    position: absolute;
+    top: 20px;
+    left: 475px;
+    opacity: 0.75;
+}
+#im_102{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 30px;
+    left: 495px;
+    border: 2px solid #000;
+}
+#txt_101{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 190px;
+    left: 490px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_102{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 230px;
+    left: 495px;
+}
+#btn_101{
+    position: absolute;
+    top: 175px;
+    left: 478px;}
+#btn_102{
+    position: absolute;
+    top: 175px;
+    left: 631px;
+}
+#line_101_1{
+    position: absolute;
+    top: 289px;
+    left: 559px;
+    width: 3px;
+    height: 38px;
+}
+#arrow_101_1{
+    position: absolute;
+    top: 325px;
+    left: 553px;
+}
+
+/* Сенникова Нина */
+#im_201{
+    position: absolute;
+    top: 350px;
+    left: 25px;
+    opacity: 0.75;
+}
+#im_202{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 360px;
+    left: 45px;
+    border: 2px solid #000;
+}
+#txt_201{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 520px;
+    left: 40px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_202{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 560px;
+    left: 45px;
+}
+#btn_201{
+    position: absolute;
+    top: 505px;
+    left: 28px;
+}
+#btn_202{
+    position: absolute;
+    top: 505px;
+    left: 181px;
+}
+#line_201_1{
+    position: absolute;
+    top: 618px;
+    left: 166px;
+    width: 3px;
+    height: 42px;
+}
+#arrow_201_1{
+    position: absolute;
+    top: 659px;
+    left: 160px;
+}
+
+
+/* Трифонов Георгий */
+#im_203{
+    position: absolute;
+    top: 350px;
+    left: 275px;
+    opacity: 0.75;
+}
+#im_204{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 360px;
+    left: 295px;
+    border: 2px solid #000;
+}
+#txt_203{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 520px;
+    left: 290px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_204{
+    position: absolute;
+    background-color: black;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 497px;
+    left: 300px;
+    border-radius: 3px;
+}
+#btn_203{
+    position: absolute;
+    top: 505px;
+    left: 278px;
+}
+#btn_204{
+    position: absolute;
+    top: 505px;
+    left: 431px;
+}
+#ring_203{
+    position: absolute;
+    top: 550px;
+    left: 437px;
+    z-index: 10;
+}
+#line_203_1{
+    position: absolute;
+    top: 575px;
+    left: 465px;
+    width: 3px;
+    height: 100px;
+}
+#arrow_203_1{
+    position: absolute;
+    top: 659px;
+    left: 459px;
+}
+
+/* Трифонова Зинаида */
+#im_205{
+    position: absolute;
+    top: 350px;
+    left: 475px;
+    opacity: 0.75;
+}
+#im_206{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 360px;
+    left: 495px;
+    border: 2px solid #000;
+}
+#txt_205{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 520px;
+    left: 487px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_206{
+    position: absolute;
+    background-color: black;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 497px;
+    left: 500px;
+    border-radius: 3px;
+}
+#btn_205{
+    position: absolute;
+    top: 505px;
+    left: 478px;
+}
+#btn_206{
+    position: absolute;
+    top: 505px;
+    left: 631px;
+}
+
+/* Ловыгин Василий */
+#im_207{
+    position: absolute;
+    top: 350px;
+    left: 725px;
+    opacity: 0.75;
+}
+#im_208{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 360px;
+    left: 745px;
+    border: 2px solid #000;
+}
+#txt_207{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 520px;
+    left: 740px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_208{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 560px;
+    left: 745px;
+}
+#btn_207{
+    position: absolute;
+    top: 505px;
+    left: 728px;
+}
+#btn_208{
+    position: absolute;
+    top: 505px;
+    left: 881px;
+}
+#ring_207{
+    position: absolute;
+    top: 550px;
+    left: 888px;
+    z-index: 10;
+}
+#line_207_1{
+    position: absolute;
+    top: 575px;
+    left: 912px;
+    width: 3px;
+    height: 100px;
+}
+#arrow_207_1{
+    position: absolute;
+    top: 659px;
+    left: 906px;
+}
+
+/* Ловыгина хххх */
+#im_209{
+    position: absolute;
+    top: 350px;
+    left: 925px;
+    opacity: 0.75;
+}
+#im_210{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 360px;
+    left: 945px;
+    border: 2px solid #000;
+}
+#txt_209{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 520px;
+    left: 940px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_210{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 560px;
+    left: 945px;
+}
+#btn_209{
+    position: absolute;
+    top: 505px;
+    left: 928px;
+}
+#btn_210{
+    position: absolute;
+    top: 505px;
+    left: 1081px;
+}
+
+/* Сенников Владимир */
+#im_301{
+    position: absolute;
+    top: 680px;
+    left: 125px;
+    opacity: 0.75;
+}
+#im_302{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 690px;
+    left: 146px;
+    border: 1px solid #fff;
+}
+#txt_301{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 850px;
+    left: 140px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_302{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 890px;
+    left: 145px;
+}
+#btn_301{
+    position: absolute;
+    top: 835px;
+    left: 128px;
+}
+#btn_302{
+    position: absolute;
+    top: 835px;
+    left: 281px;
+}
+#line_301_1{
+    position: absolute;
+    top: 880px;
+    left: 297px;
+    width: 80px;
+    height: 3px;
+}
+#line_301_2{
+    position: absolute;
+    top: 983px;
+    left: 140px;
+    width: 403px;
+    height: 4px;
+}
+#line_301_3{
+    position: absolute;
+    top: 883px;
+    left: 337px;
+    width: 3px;
+    height: 100px;
+}
+#arrow_301_1{
+    position: absolute;
+    top: 986px;
+    left: 134px;
+}
+#arrow_301_2{
+    position: absolute;
+    top: 986px;
+    left: 331px;
+}
+#arrow_301_3{
+    position: absolute;
+    top: 986px;
+    left: 534px;
+}
+
+/* Накорякова Галина */
+#im_303{
+    position: absolute;
+    top: 680px;
+    left: 375px;
+    opacity: 0.75;
+}
+#im_304{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 690px;
+    left: 396px;
+    border: 1px solid #fff;
+}
+#txt_303{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 850px;
+    left: 378px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_304{
+    position: absolute;
+    background-color: black;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 828px;
+    left: 400px;
+    border-radius: 3px;
+}
+#btn_303{
+    position: absolute;
+    top: 835px;
+    left: 378px;
+}
+#btn_304{
+    position: absolute;
+    top: 835px;
+    left: 531px;
+}
+
+/* Репринцева Людмила */
+#im_305{
+    position: absolute;
+    top: 680px;
+    left: 825px;
+    opacity: 0.75;
+}
+#im_306{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 690px;
+    left: 846px;
+    border: 1px solid #fff;
+}
+#txt_305{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 850px;
+    left: 838px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_306{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 890px;
+    left: 845px;
+}
+#btn_305{
+    position: absolute;
+    top: 835px;
+    left: 828px;
+}
+#btn_306{
+    position: absolute;
+    top: 835px;
+    left: 981px;
+}
+#line_305_1{
+    position: absolute;
+    top: 880px;
+    left: 998px;
+    width: 80px;
+    height: 3px;
+}
+#line_305_2{
+    position: absolute;
+    top: 883px;
+    left: 1035px;
+    width: 3px;
+    height: 120px;
+}
+#arrow_305_1{
+    position: absolute;
+    top: 988px;
+    left: 1029px;
+}
+
+/* Репринцев Сергей */
+#im_307{
+    position: absolute;
+    top: 680px;
+    left: 1075px;
+    opacity: 0.75;
+}
+#im_308{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.1);
+    top: 690px;
+    left: 1095px;
+    border: 2px solid #000;
+}
+#txt_307{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 850px;
+    left: 1090px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_308{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 890px;
+    left: 1095px;
+}
+#btn_307{
+    position: absolute;
+    top: 835px;
+    left: 1078px;
+}
+#btn_308{
+    position: absolute;
+    top: 835px;
+    left: 1231px;
+}
+
+/* Сенников Роман */
+#im_409{
+    position: absolute;
+    top: 1010px;
+    left: 55px;
+    opacity: 0.75;
+}
+#im_410{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 76px;
+    border: 1px solid #fff;
+}
+#txt_409{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 65px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_410{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 65px;
+}
+#btn_409{
+    position: absolute;
+    top: 1165px;
+    left: 58px;
+}
+#btn_410{
+    position: absolute;
+    top: 1165px;
+    left: 211px;
+}
+
+/* Сенников Алексей */
+#im_401{
+    position: absolute;
+    top: 1010px;
+    left: 255px;
+    opacity: 0.75;
+}
+#im_402{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 276px;
+    border: 1px solid #fff;
+}
+#txt_401{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 260px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_402{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 265px;
+}
+#btn_401{
+    position: absolute;
+    top: 1165px;
+    left: 258px;
+}
+#btn_402{
+    position: absolute;
+    top: 1165px;
+    left: 411px;
+}
+#line_401_1{
+    position: absolute;
+    top: 1278px;
+    left: 343px;
+    width: 4px;
+    height: 20px;
+}
+#line_401_2{
+    position: absolute;
+    top: 1278px;
+    left: 1033px;
+    width: 4px;
+    height: 20px;
+}
+#line_401_3{
+    position: absolute;
+    top: 1297px;
+    left: 343px;
+    width: 694px;
+    height: 3px;
+}
+#line_401_4{
+    position: absolute;
+    top: 1297px;
+    left: 689px;
+    width: 3px;
+    height: 16px;
+}
+#arrow_401_1{
+    position: absolute;
+    top: 1308px;
+    left: 683px;
+}
+
+/* Сенников Павел */
+#im_411{
+    position: absolute;
+    top: 1010px;
+    left: 455px;
+    opacity: 0.75;
+}
+#im_412{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 476px;
+    border: 1px solid #fff;
+}
+#txt_411{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 465px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_412{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 465px;
+}
+#btn_411{
+    position: absolute;
+    top: 1165px;
+    left: 458px;
+}
+#btn_412{
+    position: absolute;
+    top: 1165px;
+    left: 611px;
+}
+/* Репринцева Анна */
+#im_403{
+    position: absolute;
+    top: 1010px;
+    left: 945px;
+    opacity: 0.75;
+}
+#im_404{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 966px;
+    border: 1px solid #fff;
+}
+#txt_403{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 950px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_404{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 955px;
+}
+#btn_403{
+    position: absolute;
+    top: 1165px;
+    left: 948px;
+}
+#btn_404{
+    position: absolute;
+    top: 1165px;
+    left: 1101px;
+}
+
+
+
+/* Сметанюк Сергей */
+#im_405{
+    position: absolute;
+    top: 1010px;
+    left: 1195px;
+    opacity: 0.75;
+}
+#im_406{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 1216px;
+    border: 1px solid #fff;
+}
+#txt_405{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 1205px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_406{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 1205px;
+}
+#btn_405{
+    position: absolute;
+    top: 1165px;
+    left: 1198px;
+}
+#btn_406{
+    position: absolute;
+    top: 1165px;
+    left: 1351px;
+}
+#ring_405{
+    position: absolute;
+    top: 1200px;
+    left: 1355px;
+    z-index: 10;
+}
+#line_405_1{
+    position: absolute;
+    top: 1222px;
+    left: 1381px;
+    width: 4px;
+    height: 96px;
+}
+#line_405_2{
+    position: absolute;
+    top: 1316px;
+    left: 888px;
+    width: 650px;
+    height: 3px;
+}
+#arrow_405_1{
+    position: absolute;
+    top: 1317px;
+    left: 881px;
+}
+#arrow_405_2{
+    position: absolute;
+    top: 1317px;
+    left: 1285px;
+}
+#arrow_405_3{
+    position: absolute;
+    top: 1317px;
+    left: 1529px;
+}
+
+/* Сметанюк Ольга */
+#im_407{
+    position: absolute;
+    top: 1010px;
+    left: 1395px;
+    opacity: 0.75;
+}
+#im_408{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 1416px;
+    border: 1px solid #fff;
+}
+#txt_407{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 1400px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_408{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 1405px;
+}
+#btn_407{
+    position: absolute;
+    top: 1165px;
+    left: 1398px;
+}
+#btn_408{
+    position: absolute;
+    top: 1165px;
+    left: 1551px;
+}
+
+/* Крючков Елена */
+#im_413{
+    position: absolute;
+    top: 1010px;
+    left: 1615px;
+    opacity: 0.75;
+}
+#im_414{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 1636px;
+    border: 1px solid #fff;
+}
+#txt_413{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 1620px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_414{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 1625px;
+}
+#btn_413{
+    position: absolute;
+    top: 1165px;
+    left: 1618px;
+}
+#btn_414{
+    position: absolute;
+    top: 1165px;
+    left: 1771px;
+}
+
+/* Образцов Сергей */
+#im_415{
+    position: absolute;
+    top: 1010px;
+    left: 1835px;
+    opacity: 0.75;
+}
+#im_416{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1020px;
+    left: 1856px;
+    border: 1px solid #fff;
+}
+#txt_415{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1180px;
+    left: 1840px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_416{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1120px;
+    left: 1845px;
+}
+#btn_415{
+    position: absolute;
+    top: 1165px;
+    left: 1838px;
+}
+#btn_416{
+    position: absolute;
+    top: 1165px;
+    left: 1991px;
+}
+
+/* Сенников Антон */
+#im_501{
+    position: absolute;
+    top: 1340px;
+    left: 605px;
+    opacity: 0.75;
+}
+#im_502{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1350px;
+    left: 626px;
+    border: 1px solid #fff;
+}
+#txt_501{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1510px;
+    left: 610px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_502{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1490px;
+    left: 635px;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 3px;
+}
+#btn_501{
+    position: absolute;
+    top: 1495px;
+    left: 608px;
+}
+#btn_502{
+    position: absolute;
+    top: 1495px;
+    left: 761px;
+}
+#ring_501{
+    position: absolute;
+    top: 1530px;
+    left: 765px;
+    z-index: 10;
+}
+#line_501_1{
+    position: absolute;
+    top: 1555px;
+    left: 790px;
+    width: 4px;
+    height: 95px;
+}
+#line_501_2{
+    position: absolute;
+    top: 1648px;
+    left: 698px;
+    width: 180px;
+    height: 4px;
+}
+#arrow_501_1{
+    position: absolute;
+    top: 1648px;
+    left: 690px;
+}
+#arrow_501_2{
+    position: absolute;
+    top: 1648px;
+    left: 870px;
+}
+
+/* Сенникова Мария */
+#im_503{
+    position: absolute;
+    top: 1340px;
+    left: 805px;
+    opacity: 0.75;
+}
+#im_504{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1350px;
+    left: 826px;
+    border: 1px solid #fff;
+}
+#txt_503{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1510px;
+    left: 810px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_504{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1450px;
+    left: 815px;
+}
+#btn_503{
+    position: absolute;
+    top: 1495px;
+    left: 808px;
+}
+#btn_504{
+    position: absolute;
+    top: 1495px;
+    left: 961px;
+}
+
+/* Сметанюк Иван */
+#im_505{
+    position: absolute;
+    top: 1340px;
+    left: 1205px;
+    opacity: 0.75;
+}
+#im_506{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1350px;
+    left: 1226px;
+    border: 1px solid #fff;
+}
+#txt_505{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1510px;
+    left: 1215px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_506{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1450px;
+    left: 1215px;
+}
+#btn_505{
+    position: absolute;
+    top: 1495px;
+    left: 1208px;
+}
+#btn_506{
+    position: absolute;
+    top: 1495px;
+    left: 1361px;
+}
+
+/* Гущина Елена */
+#im_507{
+    position: absolute;
+    top: 1340px;
+    left: 1455px;
+    opacity: 0.75;
+}
+#im_508{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1350px;
+    left: 1476px;
+    border: 1px solid #fff;
+}
+#txt_507{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1510px;
+    left: 1460px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_508{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1450px;
+    left: 1465px;
+}
+#btn_507{
+    position: absolute;
+    top: 1495px;
+    left: 1458px;
+}
+#btn_508{
+    position: absolute;
+    top: 1495px;
+    left: 1611px;
+}
+
+/* Сметанюк Алена */
+#im_509{
+    position: absolute;
+    top: 1340px;
+    left: 1005px;
+    opacity: 0.75;
+}
+#im_510{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1350px;
+    left: 1026px;
+    border: 1px solid #fff;
+}
+#txt_509{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1510px;
+    left: 1010px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_510{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1450px;
+    left: 1015px;
+}
+#btn_509{
+    position: absolute;
+    top: 1495px;
+    left: 1008px;
+}
+#btn_510{
+    position: absolute;
+    top: 1495px;
+    left: 1161px;
+}
+#ring_509{
+    position: absolute;
+    transform: scale(-1, 1);
+    top: 1530px;
+    left: 1168px;
+    z-index: 10;
+}
+
+/* Сенников Георгий */
+#im_601{
+    position: absolute;
+    top: 1670px;
+    left: 615px;
+    opacity: 0.75;
+}
+#im_602{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1680px;
+    left: 636px;
+    border: 1px solid #fff;
+}
+#txt_601{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1840px;
+    left: 620px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_602{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1780px;
+    left: 625px;
+}
+#btn_601{
+    position: absolute;
+    top: 1825px;
+    left: 618px;
+}
+#btn_602{
+    position: absolute;
+    top: 1825px;
+    left: 771px;
+}
+
+/* Сенникова Злата */
+#im_603{
+    position: absolute;
+    top: 1670px;
+    left: 790px;
+    opacity: 0.75;
+}
+#im_604{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1680px;
+    left: 811px;
+    border: 1px solid #fff;
+}
+#txt_603{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1840px;
+    left: 795px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_604{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1780px;
+    left: 800px;
+}
+#btn_603{
+    position: absolute;
+    top: 1825px;
+    left: 793px;
+}
+#btn_604{
+    position: absolute;
+    top: 1825px;
+    left: 946px;
+}
+
+/* Сметанюк Мария Ивановна */
+#im_605{
+    position: absolute;
+    top: 1670px;
+    left: 1105px;
+    opacity: 0.75;
+}
+#im_606{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1680px;
+    left: 1126px;
+    border: 1px solid #fff;
+}
+#txt_605{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1840px;
+    left: 1110px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_606{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1780px;
+    left: 1115px;
+}
+#btn_605{
+    position: absolute;
+    top: 1825px;
+    left: 1108px;
+}
+#btn_606{
+    position: absolute;
+    top: 1825px;
+    left: 1262px;
+}
+
+/* Сметанюк Серафима Ивановна */
+#im_607{
+    position: absolute;
+    top: 1960px;
+    left: 1105px;
+    opacity: 0.75;
+}
+#im_608{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1970px;
+    left: 1126px;
+    border: 1px solid #fff;
+}
+#txt_607{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 2130px;
+    left: 1110px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_608{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 2070px;
+    left: 1115px;
+}
+#btn_607{
+    position: absolute;
+    top: 2115px;
+    left: 1108px;
+}
+#btn_608{
+    position: absolute;
+    top: 2115px;
+    left: 1262px;
+}
+
+/* Сметанюк Елизавета Ивановна */
+#im_609{
+    position: absolute;
+    top: 2250px;
+    left: 1105px;
+    opacity: 0.75;
+}
+#im_610{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 2260px;
+    left: 1126px;
+    border: 1px solid #fff;
+}
+#txt_609{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 2420px;
+    left: 1110px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_610{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 2360px;
+    left: 1115px;
+}
+#btn_609{
+    position: absolute;
+    top: 2405px;
+    left: 1108px;
+}
+#btn_610{
+    position: absolute;
+    top: 2405px;
+    left: 1262px;
+}
+
+/* Гущин Сергей */
+#im_611{
+    position: absolute;
+    top: 1670px;
+    left: 1455px;
+    opacity: 0.75;
+}
+#im_612{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1680px;
+    left: 1476px;
+    border: 1px solid #fff;
+}
+#txt_611{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 1840px;
+    left: 1460px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_612{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 1780px;
+    left: 1465px;
+}
+#btn_611{
+    position: absolute;
+    top: 1825px;
+    left: 1458px;
+}
+#btn_612{
+    position: absolute;
+    top: 1825px;
+    left: 1612px;
+}
+
+/* Гущина Софья */
+#im_613{
+    position: absolute;
+    top: 1960px;
+    left: 1455px;
+    opacity: 0.75;
+}
+#im_614{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 1970px;
+    left: 1476px;
+    border: 1px solid #fff;
+}
+#txt_613{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 2130px;
+    left: 1460px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_614{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 2070px;
+    left: 1465px;
+}
+#btn_613{
+    position: absolute;
+    top: 2115px;
+    left: 1458px;
+}
+#btn_614{
+    position: absolute;
+    top: 2115px;
+    left: 1612px;
+}
+
+/* Гущин Михаил */
+#im_615{
+    position: absolute;
+    top: 2250px;
+    left: 1455px;
+    opacity: 0.75;
+}
+#im_616{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 2260px;
+    left: 1476px;
+    border: 1px solid #fff;
+}
+#txt_615{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 2420px;
+    left: 1460px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_616{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 2360px;
+    left: 1465px;
+}
+#btn_615{
+    position: absolute;
+    top: 2405px;
+    left: 1458px;
+}
+#btn_616{
+    position: absolute;
+    top: 2405px;
+    left: 1612px;
+}
+
+/* Гущин Милания */
+#im_617{
+    position: absolute;
+    top: 2540px;
+    left: 1455px;
+    opacity: 0.75;
+}
+#im_618{
+    position: absolute;
+    border-radius: 7px;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+    top: 2550px;
+    left: 1476px;
+    border: 1px solid #fff;
+}
+#txt_617{
+    position: absolute;
+    font-family: 'cassandra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.12em;
+    color: rgb(48, 24, 11);
+    top: 2710px;
+    left: 1460px;
+    text-shadow: 0 0 3px #f1eeec;
+}
+#txt_618{
+    position: absolute;
+    font: Roboto;
+    font-size: 0.11em;
+    color: rgb(255, 255, 255);
+    top: 2650px;
+    left: 1465px;
+}
+#btn_617{
+    position: absolute;
+    top: 2695px;
+    left: 1458px;
+}
+#btn_618{
+    position: absolute;
+    top: 2695px;
+    left: 1612px;
+}

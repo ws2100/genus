@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+        <meta name="viewport"    content="width=device-width, initial-scale=1">
+    
+        <link href="style4.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    
+        <title>Родословная Сенниковы</title>
+    
+    </head>
+    <body>
+        <div class="content">
+            <div class="parent1"><!-- Богданов Удинцева -->
+                <img id="im_101" src="img/paper.png">
+                <img id="im_102" src="img/Bogdanov_01.jpg">
+                <p   id="txt_101"><b>Богданов Владимир<br>хх.хх.18ххг. - хх.хх.ххххг.<br>Удинцева Евдокия<br>хх.хх.18ххг. - хх.хх.ххххг.</b></p>
+                <p   id="txt_102"></p>
+                <img class="btn"   id="btn_101" src = "img/arrow_left.png"   onClick = "left_arrow('im_102')"> 
+                <img class="btn"   id="btn_102" src = "img/arrow_right.png"  onClick = "right_arrow('im_102')">
+                <img id="line_101_1" src="img/img_line_v1.png">
+                <img id="arrow_101_1" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent2"><!-- Сенникова Нина -->
+                <img id="im_201" src="img/paper.png">
+                <img id="im_202" src="img/SennicovaNina_02.png">
+                <p   id="txt_201"><b>Сенникова ()<br>Нина Архиповна<br>хх.хх.1926г. - хх.хх.ххххг.</b></p>
+                <p   id="txt_202"></p>
+                <img class="btn"   id="btn_201" src = "img/arrow_left.png"   onClick = "left_arrow('im_202')"> 
+                <img class="btn"   id="btn_202" src = "img/arrow_right.png"  onClick = "right_arrow('im_202')">
+                <img id="line_201_1" src="img/img_line_v1.png">
+                <img id="arrow_201_1" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent3"><!-- Трифонов Георгий -->
+                <img id="im_203" src="img/paper.png">
+                <img id="im_204" src="img/Trifonov_01.jpg">
+                <p   id="txt_203"><b>Трифонов<br>Георгий Захарович<br>12.02.1912г. - 24.09.1988г.</b></p>
+                <p   id="txt_204">1985г.</p>
+                <img class="btn"   id="btn_203" src = "img/arrow_left.png"   onClick = "left_arrow('im_204')"> 
+                <img class="btn"   id="btn_204" src = "img/arrow_right.png"  onClick = "right_arrow('im_204')">
+                <img id="ring_203" src="img/rings.png">
+                <img id="line_203_1" src="img/img_line_v1.png">
+                <img id="arrow_203_1" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent4"><!-- Трифонова Зинаида -->
+                <img id="im_205" src="img/paper.png">
+                <img id="im_206" src="img/Trifonova_01.jpg">
+                <p   id="txt_205"><b>Трифонова (Удинцева)<br>Зинаида Владимировна<br>30.10.1904г. - 03.08.1990г.</b></p>
+                <p   id="txt_206">1982г.</p>
+                <img class="btn"   id="btn_205" src = "img/arrow_left.png"   onClick = "left_arrow('im_206')"> 
+                <img class="btn"   id="btn_206" src = "img/arrow_right.png"  onClick = "right_arrow('im_206')">
+            </div>
+            <div class="parent5"><!-- Ловыгин Василий -->
+                <img id="im_207" src="img/paper.png">
+                <img id="im_208" src="img/LovyginVI_10.png">
+                <p   id="txt_207"><b>Ловыгин<br>Василий Иванович<br>хх.хх.ххххг. - хх.хх.ххххг.</b></p>
+                <p   id="txt_208"></p>
+                <img class="btn"   id="btn_207" src = "img/arrow_left.png"   onClick = "left_arrow('im_208')"> 
+                <img class="btn"   id="btn_208" src = "img/arrow_right.png"  onClick = "right_arrow('im_208')">
+                <img id="ring_207" src="img/rings.png">
+                <img id="line_207_1" src="img/img_line_v1.png">
+                <img id="arrow_207_1" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent6"><!-- Ловыгина хххх -->
+                <img id="im_209" src="img/paper.png">
+                <img id="im_210" src="img/foto_01.jpg">
+                <p   id="txt_209"><b>Ловыгина ()<br>ххх ххх<br>хх.хх.ххххг. - хх.хх.ххххг.</b></p>
+                <p   id="txt_210"></p>
+                <img class="btn"   id="btn_209" src = "img/arrow_left.png"   onClick = "left_arrow('im_210')"> 
+                <img class="btn"   id="btn_210" src = "img/arrow_right.png"  onClick = "right_arrow('im_210')">
+            </div>
+            <div class="parent7"><!-- Сенников Владимир -->
+                <img id="im_301" src="img/paper.png">
+                <img id="im_302" src="img/SennicovVladimir_02.png">
+                <p   id="txt_301"><b>Сенников<br>Владимир Иванович<br>хх.хх.1946г.</b></p>
+                <p   id="txt_302"></p>
+                <img class="btn"   id="btn_301" src = "img/arrow_left.png"   onClick = "left_arrow('im_302')"> 
+                <img class="btn"   id="btn_302" src = "img/arrow_right.png"  onClick = "right_arrow('im_302')">
+                <img id="line_301_1" src="img/img_line_h1.png">
+                <img id="line_301_2" src="img/img_line_h1.png">
+                <img id="line_301_3" src="img/img_line_v1.png">
+                <img id="arrow_301_1" src="img/img_arrow_bottom1.png">
+                <img id="arrow_301_2" src="img/img_arrow_bottom1.png">
+                <img id="arrow_301_3" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent8"><!-- Накорякова Галина -->
+                <img id="im_303" src="img/paper.png">
+                <img id="im_304" src="img/NacoriacovaG_01.jpg">
+                <p   id="txt_303"><b>Накорякова (Трифонова)<br>Галина Георгиевна<br>18.06.1949г.</b></p>
+                <p   id="txt_304">1985г.</p>
+                <img class="btn"   id="btn_303" src = "img/arrow_left.png"   onClick = "left_arrow('im_304')"> 
+                <img class="btn"   id="btn_304" src = "img/arrow_right.png"  onClick = "right_arrow('im_304')">
+            </div>
+            <div class="parent9"><!-- Репринцева Людмила -->
+                <img id="im_305" src="img/paper.png">
+                <img id="im_306" src="img/ReprincevaL2005_01.jpg">
+                <p   id="txt_305"><b>Репринцева (Ловыгина)<br>Людмила Васильевна<br>30.12.1952г.</b></p>
+                <p   id="txt_306"></p>
+                <img class="btn"   id="btn_305" src = "img/arrow_left.png"   onClick = "left_arrow('im_306')"> 
+                <img class="btn"   id="btn_306" src = "img/arrow_right.png"  onClick = "right_arrow('im_306')">
+                <img id="line_305_1" src="img/img_line_h1.png">
+                <img id="line_305_2" src="img/img_line_v1.png">
+                <img id="arrow_305_1" src="img/img_arrow_bottom1.png">
+                
+            </div>
+            <div class="parent10"><!-- Репринцев Сергей -->
+                <img id="im_307" src="img/paper.png">
+                <img id="im_308" src="img/foto_02.jpg">
+                <p   id="txt_307"><b>Репринцев<br>Сергей хххх<br>хх.хх.19ххг.</b></p>
+                <p   id="txt_308"></p>
+                <img class="btn"   id="btn_307" src = "img/arrow_left.png"   onClick = "left_arrow('im_308')"> 
+                <img class="btn"   id="btn_308" src = "img/arrow_right.png"  onClick = "right_arrow('im_308')">
+            </div>
+            <div class="parent11"><!-- Сенников Алексей -->
+                <img id="im_401" src="img/paper.png">
+                <img id="im_402" src="img/SennikovA_01.jpg">
+                <p   id="txt_401"><b>Сенников<br>Алексей Владимирович<br>21.10.1971г.</b></p>
+                <p   id="txt_402"></p>
+                <img class="btn"   id="btn_401" src = "img/arrow_left.png"   onClick = "left_arrow('im_402')"> 
+                <img class="btn"   id="btn_402" src = "img/arrow_right.png"  onClick = "right_arrow('im_402')">
+                <img id="line_401_1" src="img/img_line_v2.png">
+                <img id="line_401_2" src="img/img_line_v2.png">
+                <img id="line_401_3" src="img/img_line_h2.png">
+                <img id="line_401_4" src="img/img_line_v2.png">
+                <img id="arrow_401_1" src="img/img_arrow_bottom2.png">
+            </div>
+            <div class="parent12"><!-- Сенникова Анна -->
+                <img id="im_403" src="img/paper.png">
+                <img id="im_404" src="img/SennicovaAnna_01.jpg">
+                <p   id="txt_403"><b>Сенникова (Репринцева)<br>Анна Сергеевна<br>27.01.1976г.</b></p>
+                <p   id="txt_404"></p>
+                <img class="btn"   id="btn_403" src = "img/arrow_left.png"   onClick = "left_arrow('im_404')"> 
+                <img class="btn"   id="btn_404" src = "img/arrow_right.png"  onClick = "right_arrow('im_404')">
+            </div>
+            <div class="parent13"><!-- Сметанюк Сергей -->
+                <img id="im_405" src="img/paper.png">
+                <img id="im_406" src="img/SmetanukSergey.jpg">
+                <p   id="txt_405"><b>Сметанюк<br>Сергей_Иванович<br>08.06.1962г.</b></p>
+                <p   id="txt_406"></p>
+                <img class="btn"   id="btn_405" src = "img/arrow_left.png"   onClick = "left_arrow('im_406')">
+                <img class="btn"   id="btn_406" src = "img/arrow_right.png"  onClick = "right_arrow('im_406')">
+                <img id="ring_405" src="img/rings.png">
+                <img id="line_405_1" src="img/img_line_v1.png">
+                <img id="line_405_2" src="img/img_line_h1.png">
+                <img id="arrow_405_1" src="img/img_arrow_bottom1.png">
+                <img id="arrow_405_2" src="img/img_arrow_bottom1.png">
+                <img id="arrow_405_3" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent14"><!-- Сметанюк Ольга -->
+                <img id="im_407" src="img/paper.png">
+                <img id="im_408" src="img/SmetanukOlga_01.jpg">
+                <p   id="txt_407"><b>Сметанюк_(Образцова)<br>Ольга_Олеговна<br>11.12.1964г.</b></p>
+                <p   id="txt_408"></p>
+                <img class="btn"   id="btn_407" src = "img/arrow_left.png"   onClick = "left_arrow('im_408')">
+                <img class="btn"   id="btn_408" src = "img/arrow_right.png"  onClick = "right_arrow('im_408')">
+                <img id="ring_405" src="img/rings.png">
+            </div>
+            <div class="parent14"><!-- Сенников Роман -->
+                <img id="im_409" src="img/paper.png">
+                <img id="im_410" src="img/SennikovR_01.jpg">
+                <p   id="txt_409"><b>Сенников<br>Роман Владимирович<br>27.01.1970г.</b></p>
+                <p   id="txt_410"></p>
+                <img class="btn"   id="btn_409" src = "img/arrow_left.png"   onClick = "left_arrow('im_410')">
+                <img class="btn"   id="btn_410" src = "img/arrow_right.png"  onClick = "right_arrow('im_410')">
+            </div>
+            <div class="parent14"><!-- Сенников Павел -->
+                <img id="im_411" src="img/paper.png">
+                <img id="im_412" src="img/SennikovPavel_01.jpg">
+                <p   id="txt_411"><b>Сенников<br>Павел Владимирович<br>25.11.1972г.</b></p>
+                <p   id="txt_412"></p>
+                <img class="btn"   id="btn_411" src = "img/arrow_left.png"   onClick = "left_arrow('im_412')">
+                <img class="btn"   id="btn_412" src = "img/arrow_right.png"  onClick = "right_arrow('im_412')">
+            </div>
+            <div class="parent14"><!-- Крюкова Елена Олеговна -->
+                <img id="im_413" src="img/paper.png">
+                <img id="im_414" src="img/foto_01.jpg">
+                <p   id="txt_413"><b>Крюкова_(Образцова)<br>Елена_Олеговна<br>хх.хх.19ххг.</b></p>
+                <p   id="txt_414"></p>
+                <img class="btn"   id="btn_413" src = "img/arrow_left.png"   onClick = "left_arrow('im_414')">
+                <img class="btn"   id="btn_414" src = "img/arrow_right.png"  onClick = "right_arrow('im_414')">
+            </div>
+            <div class="parent14"><!-- Образцов Сергей -->
+                <img id="im_415" src="img/paper.png">
+                <img id="im_416" src="img/foto_02.jpg">
+                <p   id="txt_415"><b>Образцов<br>Сергей_Олегович<br>хх.хх.19ххг.</b></p>
+                <p   id="txt_416"></p>
+                <img class="btn"   id="btn_415" src = "img/arrow_left.png"   onClick = "left_arrow('im_416')">
+                <img class="btn"   id="btn_416" src = "img/arrow_right.png"  onClick = "right_arrow('im_416')">
+            </div>
+            <div class="parent15"><!-- Сенников Антон -->
+                <img id="im_501" src="img/paper.png">
+                <img id="im_502" src="img/Antosha_01.jpg">
+                <p   id="txt_501"><b>Сенников<br>Антон Алексеевич<br>22.06.1996г.</b></p>
+                <p   id="txt_502">2019г.</p>
+                <img class="btn"   id="btn_501" src = "img/arrow_left.png"   onClick = "left_arrow('im_502')"> 
+                <img class="btn"   id="btn_502" src = "img/arrow_right.png"  onClick = "right_arrow('im_502')">
+                <img id="ring_501" src="img/rings.png">
+                <img id="line_501_1" src="img/img_line_v1.png">
+                <img id="line_501_2" src="img/img_line_h1.png">
+                <img id="arrow_501_1" src="img/img_arrow_bottom1.png">
+                <img id="arrow_501_2" src="img/img_arrow_bottom1.png">
+            </div>
+            <div class="parent16"><!-- Сенникова Маша -->
+                <img id="im_503" src="img/paper.png">
+                <img id="im_504" src="img/Masha_01.jpg">
+                <p   id="txt_503"><b>Сенникова (Сметанюк)<br>Мария Сергеевна<br>07.04.1997г.</b></p>
+                <p   id="txt_504"></p>
+                <img class="btn"   id="btn_503" src = "img/arrow_left.png"   onClick = "left_arrow('im_504')"> 
+                <img class="btn"   id="btn_504" src = "img/arrow_right.png"  onClick = "right_arrow('im_504')">
+            </div>
+            <div class="parent16"><!-- Сметанюк Иван -->
+                <img id="im_505" src="img/paper.png">
+                <img id="im_506" src="img/SmetanukIvan_01.jpg">
+                <p   id="txt_505"><b>Сметанюк<br>Иван_Сергеевич<br>19.01.1989г.</b></p>
+                <p   id="txt_506"></p>
+                <img class="btn"   id="btn_505" src = "img/arrow_left.png"   onClick = "left_arrow('im_506')"> 
+                <img class="btn"   id="btn_506" src = "img/arrow_right.png"  onClick = "right_arrow('im_506')">
+            </div>
+            <div class="parent16"><!-- Гущина Елена -->
+                <img id="im_507" src="img/paper.png">
+                <img id="im_508" src="img/foto_01.jpg">
+                <p   id="txt_507"><b>Гущина_(Сметанюк)<br>Елена Сергеевна<br>03.07.1987г.</b></p>
+                <p   id="txt_508"></p>
+                <img class="btn"   id="btn_507" src = "img/arrow_left.png"   onClick = "left_arrow('im_508')"> 
+                <img class="btn"   id="btn_508" src = "img/arrow_right.png"  onClick = "right_arrow('im_508')">
+            </div>
+            <div class="parent16"><!-- Сметанюк Алена -->
+                <img id="im_509" src="img/paper.png">
+                <img id="im_510" src="img/foto_01.jpg">
+                <p   id="txt_509"><b>Сметанюк (Беляева)<br>Алена хххх<br>29.01.1989г.</b></p>
+                <p   id="txt_510"></p>
+                <img class="btn"   id="btn_509" src = "img/arrow_left.png"   onClick = "left_arrow('im_510')"> 
+                <img class="btn"   id="btn_510" src = "img/arrow_right.png"  onClick = "right_arrow('im_510')">
+                <img id="ring_509" src="img/rings.png">
+            </div>
+            <div class="parent16"><!-- Сенников Георгий -->
+                <img id="im_601" src="img/paper.png">
+                <img id="im_602" src="img/SennikovGA_01.jpg">
+                <p   id="txt_601"><b>Сенников<br>Георгий Антонович<br>26.08.2019г.</b></p>
+                <p   id="txt_602"></p>
+                <img class="btn"   id="btn_601" src = "img/arrow_left.png"   onClick = "left_arrow('im_602')"> 
+                <img class="btn"   id="btn_602" src = "img/arrow_right.png"  onClick = "right_arrow('im_602')">
+            </div>
+            <div class="parent17"><!-- Сенникова Злата -->
+                <img id="im_603" src="img/paper.png">
+                <img id="im_604" src="img/SennikovaZA_01.jpg">
+                <p   id="txt_603"><b>Сенникова<br>Злата Антоновна<br>21.09.2021г.</b></p>
+                <p   id="txt_604"></p>
+                <img class="btn"   id="btn_603" src = "img/arrow_left.png"   onClick = "left_arrow('im_604')"> 
+                <img class="btn"   id="btn_604" src = "img/arrow_right.png"  onClick = "right_arrow('im_604')">
+            </div>
+            <div class="parent17"><!-- Сметанюк Мария Ивановна -->
+                <img id="im_605" src="img/paper.png">
+                <img id="im_606" src="img/foto_01.jpg">
+                <p   id="txt_605"><b>Сметанюк<br>Мария Ивановна<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_606"></p>
+                <img class="btn"   id="btn_605" src = "img/arrow_left.png"   onClick = "left_arrow('im_606')"> 
+                <img class="btn"   id="btn_606" src = "img/arrow_right.png"  onClick = "right_arrow('im_606')">
+            </div>
+            <div class="parent17"><!-- Сметанюк Серафима Ивановна -->
+                <img id="im_607" src="img/paper.png">
+                <img id="im_608" src="img/foto_01.jpg">
+                <p   id="txt_607"><b>Сметанюк<br>Серафима Ивановна<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_608"></p>
+                <img class="btn"   id="btn_607" src = "img/arrow_left.png"   onClick = "left_arrow('im_608')"> 
+                <img class="btn"   id="btn_608" src = "img/arrow_right.png"  onClick = "right_arrow('im_608')">
+            </div>
+            <div class="parent17"><!-- Сметанюк Елизавета Ивановна -->
+                <img id="im_609" src="img/paper.png">
+                <img id="im_610" src="img/foto_01.jpg">
+                <p   id="txt_609"><b>Сметанюк<br>Елизавета Ивановна<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_610"></p>
+                <img class="btn"   id="btn_609" src = "img/arrow_left.png"   onClick = "left_arrow('im_610')"> 
+                <img class="btn"   id="btn_610" src = "img/arrow_right.png"  onClick = "right_arrow('im_610')">
+            </div>
+            <div class="parent17"><!-- Гущин Сергей -->
+                <img id="im_611" src="img/paper.png">
+                <img id="im_612" src="img/foto_02.jpg">
+                <p   id="txt_611"><b>Гущин<br>Сергей хххх<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_612"></p>
+                <img class="btn"   id="btn_611" src = "img/arrow_left.png"   onClick = "left_arrow('im_612')"> 
+                <img class="btn"   id="btn_612" src = "img/arrow_right.png"  onClick = "right_arrow('im_612')">
+            </div>
+            <div class="parent17"><!-- Гущина Софья -->
+                <img id="im_613" src="img/paper.png">
+                <img id="im_614" src="img/foto_01.jpg">
+                <p   id="txt_613"><b>Гущина<br>Софья хххх<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_614"></p>
+                <img class="btn"   id="btn_613" src = "img/arrow_left.png"   onClick = "left_arrow('im_614')"> 
+                <img class="btn"   id="btn_614" src = "img/arrow_right.png"  onClick = "right_arrow('im_614')">
+            </div>
+            <div class="parent17"><!-- Гущин Михаил -->
+                <img id="im_615" src="img/paper.png">
+                <img id="im_616" src="img/foto_02.jpg">
+                <p   id="txt_615"><b>Гущин<br>Михаил хххх<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_616"></p>
+                <img class="btn"   id="btn_615" src = "img/arrow_left.png"   onClick = "left_arrow('im_616')"> 
+                <img class="btn"   id="btn_616" src = "img/arrow_right.png"  onClick = "right_arrow('im_616')">
+            </div>
+            <div class="parent17"><!-- Гущин Мелания -->
+                <img id="im_617" src="img/paper.png">
+                <img id="im_618" src="img/foto_01.jpg">
+                <p   id="txt_617"><b>Гущина<br>Мелания хххх<br>хх.хх.20ххг.</b></p>
+                <p   id="txt_618"></p>
+                <img class="btn"   id="btn_617" src = "img/arrow_left.png"   onClick = "left_arrow('im_618')"> 
+                <img class="btn"   id="btn_618" src = "img/arrow_right.png"  onClick = "right_arrow('im_618')">
+            </div>
+        </div><!-- закрывашка "content" -->
+
+        <script>
+            var images102 = ["img/Bogdanov_01.jpg",        // Богданов Удинцева
+                             "img/Udintseva_01.jpg"]
+            var images204 = ["img/Trifonov_01.jpg",        // Трифонов Георгий
+                             "img/Trifonov_02_1939.jpg",
+                             "img/Trifonov_02_1940.jpg",
+                             "img/Trifonov_03_1942.jpg",
+                             "img/Trifonov_03_1950.jpg",
+                             "img/Trifonov_04.jpg",
+                             "img/Trifonov_04_1967.jpg",
+                             "img/Trifonov_05.jpg",
+                             "img/Trifonov_06.jpg"]
+            var images206 = ["img/Trifonova_01.jpg",       // Трифонова Зинаида
+                             "img/Trifonova_02.jpg",
+                             "img/Trifonova_02_1968.jpg",
+                             "img/Trifonova_02_1974.jpg",
+                             "img/Trifonova_03.jpg"]
+            var images304 = ["img/NacoriacovaG_01.jpg",    // Накорякова Галина
+                            "img/NacoriacovaG_02.jpg",
+                            "img/NacoriacovaG_03.jpg",
+                            "img/NacoriacovaG_03_1968.jpg",
+                            "img/NacoriacovaG_03_1969.jpg",
+                            "img/NacoriacovaG_04.jpg",
+                            "img/NacoriacovaG_05.jpg",
+                            "img/NacoriacovaG_06.jpg",
+                            "img/NacoriacovaG_06_1997.jpg"]
+            var images402 = ["img/SennikovA_01.jpg",       // Сенников Алексей
+                            "img/SennikovA_02.jpg",
+                            "img/SennikovA_03.jpg",
+                            "img/SennikovA_04.jpg",
+                            "img/SennikovA_05.jpg",
+                            "img/SennikovA_05_2001.jpg",
+                            "img/SennikovA_06.jpg",
+                            "img/SennikovA_07.jpg"]
+            var images404 = ["img/SennicovaAnna_01.jpg",   // Сенникова Анна
+                            "img/SennicovaAnna_02.jpg",
+                            "img/SennicovaAnna_03.jpg"]
+            var images410 = ["img/SennikovR_01.jpg",       // Сенников Роман
+                            "img/SennikovR_02.jpg",
+                            "img/SennikovR_03.jpg",
+                            "img/SennikovR_04.jpg",
+                            "img/SennikovR_05.jpg"]
+            var images412 = ["img/SennikovPavel_01.jpg",   // Сенников Павел
+                            "img/SennikovPavel_02.jpg",
+                            "img/SennikovPavel_03.jpg"]
+            var images502 = ["img/Antosha_01.jpg",         // Сенников Антон
+                            "img/Antosha_02.jpg",
+                            "img/Antosha_03.jpg",
+                            "img/Antosha_04.jpg",
+                            "img/Antosha_05.jpg",
+                            "img/Antosha_06.jpg",
+                            "img/Antosha_07.jpg",
+                            "img/Antosha_08.jpg",
+                            "img/Antosha_09.jpg",
+                            "img/Antosha_10.jpg"]
+            var text204 = ["1985г.",                       // Трифонов Георгий
+                           "Халхин-Гол, 1939г.",
+                           "1940г.",
+                           "1942г. госпиталь",
+                           "Сургут, 1950г.",
+                           "1960г.",
+                           "1967г.",
+                           "1968г.",
+                           "1973г."]
+            var text206 = ["1982г.",                       // Трифонова Зинаида
+                           "1960г.",
+                           "1968г.",
+                           "1974г.",
+                           "1986г."]
+            var text304 = ["1985г.",                       // Накорякова Галина
+                           "1959г.",
+                           "1961г.",
+                           "1968г.",
+                           "1969г.",
+                           "1985г.",
+                           "1989г.",
+                           "1995г.",
+                           "1997г."]
+            var text502 = ["2019г.",                       // Сенников Антон
+                          "1998г.",
+                          "2013г.",
+                          "2017г.",
+                          "2019г.",
+                          "2020г.",
+                          "2020г.",
+                          "2020г.",
+                          "2020г.",
+                          "2020г."]
+            
+            var to = -1;  // Счетчик, указывающий на текущую картинки
+            
+            function right_arrow(xx) // Открытие следующей картинки(движение вправо)
+                
+                {if (xx == 'im_502'){                 // Сенников Антон
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_502');
+                    if (to < images502.length-1)
+                        to++
+                    else
+                        to = 0;
+                    obj.src = images502[to];
+                    txt.innerHTML = text502[to]
+                    }
+                else if (xx == 'im_102'){                 // Удинцева Евдокия
+                    var obj = document.getElementById(xx);
+                    if (to < images102.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images102[to];
+                    }
+                else if (xx == 'im_204'){                 // Трифонов Георгий
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_204');
+                    if (to < images204.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images204[to];
+                    txt.innerHTML = text204[to]
+                    }
+                else if (xx == 'im_206'){                 // Трифонова Зинаида
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_206');
+                    if (to < images206.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images206[to];
+                    txt.innerHTML = text206[to];                    }
+                else if (xx == 'im_404'){                 // Сенникова Анна
+                    var obj = document.getElementById(xx);
+                    if (to < images404.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images404[to];
+                    }
+                else if (xx == 'im_402'){                 // Сенников Алексей
+                    var obj = document.getElementById(xx);
+                    if (to < images402.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images402[to];
+                    }
+                else if (xx == 'im_410'){                 // Сенников Роман
+                    var obj = document.getElementById(xx);
+                    if (to < images410.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images410[to];
+                    }
+                else if (xx == 'im_412'){                 // Сенников Павел
+                    var obj = document.getElementById(xx);
+                    if (to < images412.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images412[to];
+                    }
+                else if (xx == 'im_304'){                 // Накорякова Галина
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_304');
+                    if (to < images304.length-1)
+                        to++ 
+                    else
+                        to = 0;
+                    obj.src = images304[to];
+                    txt.innerHTML = text304[to];
+                    }
+                }
+            
+            function left_arrow(xx) // Открытие предыдущей картинки(движение влево)
+                {if (xx == 'im_502'){                       // Сенников Антон
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_502');
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images502.length-1;
+                        obj.src = images502[to];
+                    }
+                else if (xx == 'im_102'){                   // Удинцева Евдокия
+                    var obj = document.getElementById(xx);
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images102.length-1;
+                        obj.src = images102[to];
+                    }
+                else if (xx == 'im_204'){                   // Трифонов Георгий
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_204');
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images204.length-1;
+                        obj.src = images204[to];
+                        txt.innerHTML = text204[to];
+                    }
+                else if (xx == 'im_206'){                   // Трифонова Зинаида
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_206');
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images206.length-1;
+                        obj.src = images206[to];
+                        txt.innerHTML = text206[to];
+                    }
+                else if (xx == 'im_404'){                   // Сенников Алексей
+                    var obj = document.getElementById(xx);
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images404.length-1;
+                        obj.src = images404[to];
+                    }
+                else if (xx == 'im_410'){                   // Сенников Роман
+                    var obj = document.getElementById(xx);
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images410.length-1;
+                        obj.src = images410[to];
+                    }
+                else if (xx == 'im_412'){                   // Сенников Павел
+                    var obj = document.getElementById(xx);
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images412.length-1;
+                        obj.src = images412[to];
+                    }
+                else if (xx == 'im_402'){                   // Сенников Алексей
+                    var obj = document.getElementById(xx);
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images402.length-1;
+                        obj.src = images402[to];
+                    }
+                else if (xx == 'im_304'){                 // Накорякова Галина
+                    var obj = document.getElementById(xx);
+                    var txt = document.getElementById('txt_304');
+                    if (to > 0)
+                        to--;
+                    else
+                        to = images304.length-1;
+                        obj.src = images304[to];
+                        txt.innerHTML = text304[to];
+                    }
+                }
+            </script>
+    </body>
+</html>
