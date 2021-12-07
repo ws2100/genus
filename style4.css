@@ -43,6 +43,8 @@ body{
     color: rgb(255, 255, 255);
     top: 230px;
     left: 495px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_101{
     position: absolute;
@@ -97,6 +99,8 @@ body{
     color: rgb(255, 255, 255);
     top: 560px;
     left: 45px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_201{
     position: absolute;
@@ -155,6 +159,8 @@ body{
     top: 497px;
     left: 300px;
     border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_203{
     position: absolute;
@@ -218,6 +224,8 @@ body{
     top: 497px;
     left: 500px;
     border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_205{
     position: absolute;
@@ -261,6 +269,8 @@ body{
     color: rgb(255, 255, 255);
     top: 560px;
     left: 745px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_207{
     position: absolute;
@@ -322,6 +332,8 @@ body{
     color: rgb(255, 255, 255);
     top: 560px;
     left: 945px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_209{
     position: absolute;
@@ -365,6 +377,8 @@ body{
     color: rgb(255, 255, 255);
     top: 890px;
     left: 145px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_301{
     position: absolute;
@@ -446,6 +460,8 @@ body{
     top: 828px;
     left: 400px;
     border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_303{
     position: absolute;
@@ -489,6 +505,8 @@ body{
     color: rgb(255, 255, 255);
     top: 890px;
     left: 845px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_305{
     position: absolute;
@@ -551,6 +569,8 @@ body{
     color: rgb(255, 255, 255);
     top: 890px;
     left: 1095px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_307{
     position: absolute;
@@ -594,6 +614,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1123px;
     left: 65px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_409{
     position: absolute;
@@ -637,6 +659,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 265px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_401{
     position: absolute;
@@ -713,6 +737,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_411{
     position: absolute;
@@ -755,6 +781,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 955px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_403{
     position: absolute;
@@ -800,6 +828,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 1205px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_405{
     position: absolute;
@@ -878,6 +908,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 1405px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_407{
     position: absolute;
@@ -921,6 +953,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1120px;
     left: 1625px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_413{
     position: absolute;
@@ -964,6 +998,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1123px;
     left: 1845px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_415{
     position: absolute;
@@ -1010,6 +1046,8 @@ body{
     z-index: 10;
     background-color: rgba(0,0,0,0.75);
     border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_501{
     position: absolute;
@@ -1083,6 +1121,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1450px;
     left: 815px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_503{
     position: absolute;
@@ -1126,6 +1166,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1450px;
     left: 1215px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_505{
     position: absolute;
@@ -1169,6 +1211,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1450px;
     left: 1465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_507{
     position: absolute;
@@ -1212,6 +1256,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1450px;
     left: 1015px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_509{
     position: absolute;
@@ -1262,6 +1308,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1780px;
     left: 625px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_601{
     position: absolute;
@@ -1305,6 +1353,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1780px;
     left: 800px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_603{
     position: absolute;
@@ -1348,6 +1398,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1780px;
     left: 1115px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_605{
     position: absolute;
@@ -1391,6 +1443,8 @@ body{
     color: rgb(255, 255, 255);
     top: 2070px;
     left: 1115px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_607{
     position: absolute;
@@ -1434,6 +1488,8 @@ body{
     color: rgb(255, 255, 255);
     top: 2360px;
     left: 1115px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_609{
     position: absolute;
@@ -1477,6 +1533,8 @@ body{
     color: rgb(255, 255, 255);
     top: 1780px;
     left: 1465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_611{
     position: absolute;
@@ -1520,6 +1578,8 @@ body{
     color: rgb(255, 255, 255);
     top: 2070px;
     left: 1465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_613{
     position: absolute;
@@ -1563,6 +1623,8 @@ body{
     color: rgb(255, 255, 255);
     top: 2360px;
     left: 1465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_615{
     position: absolute;
@@ -1606,6 +1668,8 @@ body{
     color: rgb(255, 255, 255);
     top: 2650px;
     left: 1465px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 #btn_617{
     position: absolute;
