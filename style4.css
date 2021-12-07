@@ -11,11 +11,12 @@ html{
 body{
     font-family: 'Marck Script', serif;
     background-color: rgb(49, 122, 124);
-    background-image: url("img/fon.jpg");
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url("img/fon.jpg") center center cover no-repeat fixed;
+    /*background-image: url("img/fon.jpg"); */
+    /*background-position: center center; */
+    /*background-attachment: fixed; */
+    /*background-size: cover; */
+    /*background-repeat: no-repeat; */
     
     min-height:100%;}
 
