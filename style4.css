@@ -13,9 +13,10 @@ body{
     background-color: rgb(49, 122, 124);
     background-image: url("img/fon.jpg");
     background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    
     min-height:100%;}
 
 .content {
